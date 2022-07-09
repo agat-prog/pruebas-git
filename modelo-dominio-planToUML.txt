@@ -1,0 +1,56 @@
+@startuml
+
+title Modelo del dominio del Conecta-4
+
+
+
+class Conecta4
+Conecta4  *--> "2" Player
+Conecta4 *--> "1" Board
+Conecta4 *--> "1" Turn
+
+class Player
+Player o--> "21" Piece
+Player *--> "1" Objetive
+class Board
+Board *--> "8" Row
+Board *--> "7" Column
+
+class Row
+Row *--> "8" Piece
+
+class Column
+Column *--> "7" Piece
+
+class Piece
+Piece *--> "1" Color
+
+class Turn
+Turn ..> "1" Action
+Turn ..> "1" Player
+Turn ..> "1" Board
+
+class Action
+Action ..> "1" Piece
+
+class Color
+Color <|-- Red
+Color <|-- Yellow
+
+class Red
+class Yellow
+class Objetive
+Objetive <|-- InvertedDiagonal
+Objetive <|-- Diagonal
+Objetive <|-- Horizontal
+Objetive <|-- Vertical
+Objetive <|-- Tie
+
+class InvertedDiagonal
+class Diagonal
+class Horizontal
+class Vertical
+class Tie
+
+
+@enduml
