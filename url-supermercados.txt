@@ -1,3 +1,5 @@
 https://github.com/USantaTecla-manager-supermarket/requirements
 
 cambiar para pruebas
+
+Cambios en rama main
