@@ -2,7 +2,8 @@
 
 title Modelo del dominio del Conecta-4
 
-
+####
+Cambios para probar rebase
 
 class Conecta4
 Conecta4  *--> "2" Player
