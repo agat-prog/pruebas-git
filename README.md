@@ -16,6 +16,10 @@ Este cambio lo estoy haciendo en develop
 =======
 21:42 prueba desde usuario 1 para conflictos
 
+<<<<<<< HEAD
 
 17:45 modificación del usuario 2 para forzar conflictos
 >>>>>>> bed7dd3 (16 commit)
+=======
+17:44 modificación del usuario 1 para forzar conflictos
+>>>>>>> 868eaa6 (15 commit)
