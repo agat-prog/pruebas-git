@@ -3,3 +3,6 @@ https://github.com/USantaTecla-manager-supermarket/requirements
 cambiar para pruebas
 
 Cambios en rama main II (18:51)
+
+
+10/07: commit 28 desde main
