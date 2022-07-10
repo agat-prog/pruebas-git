@@ -7,3 +7,6 @@ Este cambio lo estoy haciendo en develop
 
 21:41 prueba desde user2 para conflictos
 21:42 prueba desde usuario 1 para conflictos
+
+
+17:45 modificación del usuario 2 para forzar conflictos
